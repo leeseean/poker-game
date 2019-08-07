@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ETimerSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="163b19957a7" ></w:Config>
+	<e:Image source="timer_png" width="99" x="0" height="97" y="0"/>
+	<e:Label id="lbTime" text="30" horizontalCenter="5" verticalCenter="2"/>
+</e:Skin>

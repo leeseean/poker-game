@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DialogOk" width="1224" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="img_dialog_outer" top="0" bottom="0" left="0" right="0" source="dialog_bg_png" fillMode="repeat" />
+	<e:Group width="666.66" height="446.97" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image top="0" bottom="-137.02999999999997" left="0" right="-0.34000000000003183" source="dialog_panel_png"  anchorOffsetY="0" scale9Grid="28,82,518,270"/>
+		<e:Scroller width="564" height="188" x="49.33" y="99" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group>
+				<e:Label id="lb_dialog_text" text="今天是个好日子，今天血战到天亮今天是个好日子，今天血战到天亮" fontFamily="Microsoft YaHei" anchorOffsetX="0" anchorOffsetY="0" multiline="true" wordWrap="true" lineSpacing="10" left="0" right="0" top="0" bottom="0"/>
+			</e:Group>
+		</e:Scroller>
+		<ns1:EButton y="340" horizontalCenter="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dialog_zhunbei_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btn_dialog_cancel" x="621.32" y="-10.66" anchorOffsetY="0" height="55" width="55">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dialog_cancel_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+	</e:Group>
+</e:Skin>

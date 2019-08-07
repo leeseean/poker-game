@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EToastSkin" width="400" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="163cb48bada" ></w:Config>
+	<e:Label id="lbMsg" text="Label" verticalCenter="0" horizontalCenter="0" textColor="0xfc0c0c" fontFamily="Microsoft YaHei"/>
+</e:Skin>

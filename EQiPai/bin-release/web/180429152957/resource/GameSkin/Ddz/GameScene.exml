@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameScene" width="1224" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162aaf9c32c"/>
+	<e:Image height="720" source="bg2_jpg" top="0" left="0" verticalCenter="0" horizontalCenter="0" right="0" />
+	<e:Button id="btn_back" x="39.96" y="13">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_back_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="table" anchorOffsetX="0" anchorOffsetY="0" top="280" bottom="0" horizontalCenter="-1.5" width="1222.61">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="table_left_png" skewY="180" bottom="0" scaleX="1" scaleY="1" top="0" right="0" fillMode="scale"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="table_left_png" bottom="0" top="0" left="0" fillMode="scale"/>
+		<e:Image id="ready" width="263" height="109" x="385" y="84" source="ready_png"/>
+		<e:Image id="invite" width="263" height="109" x="673.53" y="84" source="invite_png"/>
+	</e:Group>
+	<e:Group width="200" height="75" y="3" right="29" anchorOffsetY="0">
+		<e:Button id="btn_setting" x="98" y="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_setting_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_tuoguan" x="-1" y="3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_tuoguan_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="btn_userbar" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="315.5" bottom="3" left="0"
+	         right="0" height="81">
+		<e:Image height="81" source="buttom_border_png"  scale9Grid="73,24,1061,36" right="0" left="0" bottom="0"/>
+		<e:Image width="258.45" height="50" source="gold_bg_png"  x="16" bottom="17" verticalCenter="-1.5" anchorOffsetX="0"/>
+		<e:Image id="user_addgold" width="54" height="54" source="button_plus_png" anchorOffsetX="0"
+		         anchorOffsetY="0"  x="225.53" bottom="13" verticalCenter="0.5"/>
+		<e:Image width="63" height="59" source="gold_left_png"  x="10" verticalCenter="4" bottom="7" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Image width="229" height="50" source="home_card_png"  right="175" bottom="18"/>
+		<e:Image width="43" height="47" source="user_home_card_icon_png"  right="357" bottom="17"/>
+		<e:Image id="user_addhomecard" width="54" height="54" source="button_plus_png" anchorOffsetX="0"
+		         anchorOffsetY="0"  right="172" bottom="15"/>
+		<e:Button id="user_chat" right="16" bottom="13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="user_chat_png" source.down="user_chat_png"
+					         source.disabled="user_chat_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="chupai_Area" height="145.44" anchorOffsetX="0" anchorOffsetY="0" name="chupai" right="79.02999999999997" left="168" bottom="101">
+	</e:Group>
+	<e:Group id="UserGroup_Me" width="184" height="180.48" x="2" y="371.7" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image width="153.45" height="134.97" x="9.55" y="14.03" anchorOffsetX="0" anchorOffsetY="0" source="usergroup_border_png"/>
+		<e:Image width="108.67" height="101.2" x="32.54" y="31.21" anchorOffsetX="0" anchorOffsetY="0" source="userimg_default_png"/>
+	</e:Group>
+</e:Skin>

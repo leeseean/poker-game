@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DialogView" width="1224" height="720" xmlns:e="http://ns.egret.com/eui">
+	<e:Image top="0" bottom="0" left="0" right="0"/>
+</e:Skin>
